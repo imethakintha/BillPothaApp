@@ -1,11 +1,11 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { ScannerTestScreen } from './src/screens/ScannerTestScreen';
+import { DatabaseTestScreen } from './src/screens/DatabaseTestScreen';
 
 export default function App() {
   return (
     <>
-      <ScannerTestScreen />
+      <DatabaseTestScreen />
       <StatusBar style="auto" />
     </>
   );

@@ -44,7 +44,7 @@ export const OCR_CONFIG = {
 
 // Database Configuration
 export const DB_CONFIG = {
-  name: 'BillPothaDB',
+  name: 'billpotha.db',
   version: 1,
   table_names: {
     receipts: 'receipts',
