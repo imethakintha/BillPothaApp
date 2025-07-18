@@ -47,7 +47,8 @@ export type RootStackParamList = {
   Home: undefined;
   Scanner: undefined;
   ReceiptDetail: {
-    receiptId: string;
+    receiptId?: string;
+    receiptData?: ParsedReceiptData;
   };
   ReceiptsList: undefined;
 };
